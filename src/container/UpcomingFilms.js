@@ -43,6 +43,7 @@ class UpcomingFilms extends Component {
        <Fragment>
          <h2>Upcoming Films</h2>
          <MovieList movies= {this.state.movies}/>
+
          <MoreReleases />
         </Fragment>
      );
